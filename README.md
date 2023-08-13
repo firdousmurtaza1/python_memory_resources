@@ -1,18 +1,18 @@
-# python_memory_resources
+# Python Resources
 Reference Links to understand Python's GIL, Thread process, Concurrency, Memory Management
-# GIL
+### GIL
 The Global Interpreter Lock (GIL) is a mutex (a type of locking mechanism) in the CPython interpreter, which is the default and most widely used implementation of Python.The GIL is a significant feature that has implications for multi-threaded Python programs.
 [GIL understanding](https://https://realpython.com/python-gil/)
 
-# Thread 
+### Thread 
 A thread is a separate flow of execution that shares the same memory space as other threads within the same process. Threads within a process can interact and communicate with each other through shared memory, which can simplify the development of concurrent applications.
 [Thread Process](https://realpython.com/intro-to-python-threading/)
 
-# Concurrency
+### Concurrency
 Concurrency is the ability of a program to deal with multiple tasks simultaneously, even if only one task is being executed at a given moment due to limited resources (e.g., single-core CPU).
 [Concurrency Process](https://realpython.com/python-concurrency/)
 
-# Memory Management
+### Memory Management
 **Memory Management in Python**
 Memory management in Python is a crucial aspect of the language's runtime environment. Python uses an automatic memory management system to handle memory allocation and deallocation for objects. The main components of Python's memory management are:
 
